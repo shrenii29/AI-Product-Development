@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict</title>
+</head>
+<body style="text-align:center">
+    <h2>Enter details</h2>
+    <form method="POST">
+        <input type="number" name="pregnancies" step="any" required placeholder="Number of pregnancies"/><br><br>
+        <input type="number" name="glucose" step="any" required placeholder="Glucose"/><br><br>
+        <input type="number" name="bp" step="any" required placeholder="Blood pressure"/><br><br>
+        <input type="number" name="st" step="any" required placeholder="Skin thickness"/><br><br>
+        <input type="number" name="age" step="any" required placeholder="Age"/><br><br>
+        <input type="number" name="dpf" step="any" required placeholder="Diabetes Pedigree Function"/><br><br>
+        <input type="number" name="bmi" step="any" required placeholder="BMI"/><br><br>
+        <input type="number" name="insulin" step="any" required placeholder="Insulin"/><br><br>
+        <button type="submit">Predict</button>
+    </form>
+    <h3>{{result}}</h3>
+</body>
+</html>
